@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "my-nextron-app",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@gfazioli/mantine-marquee": "^2.0.7",
+    "@mantine/carousel": "^7.13.4",
+    "@mantine/core": "^7.13.4",
+    "@mantine/form": "^7.13.4",
+    "@mantine/hooks": "^7.13.4",
+    "@mantine/notifications": "^7.13.4",
+    "@tabler/icons-react": "^3.20.0",
+    "electron-serve": "^1.3.0",
+    "electron-store": "^8.2.0",
+    "embla-carousel-react": "^7.1.0",
+    "node-window-manager": "^2.2.4",
+    "nodemailer": "^6.9.16",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.52",
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3",
+    "next": "^14.2.4",
+    "nextron": "^9.1.0",
+    "postcss": "^8.4.47",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
